@@ -62,18 +62,19 @@
   background: var(--blue-dark);
 }
 
-.finishCountdownButtonActive{
+.finishCountdownButtonActive {
   background: var(--white);
   color: var(--title);
 }
 
-.finishCountdownButtonActive:not(:disabled):hover{
+.finishCountdownButtonActive:not(:disabled):hover {
   background: var(--red);
   color: var(--white);
 }
 
 .startCountdownButton:disabled {
-  background:var(--white);
+  background: var(--white);
   color: var(--text);
   cursor: not-allowed;
+  border-bottom: 0.25rem solid var(--green);
 }
