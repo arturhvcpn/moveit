@@ -78,3 +78,7 @@
   cursor: not-allowed;
   border-bottom: 0.25rem solid var(--green);
 }
+
+.startCountdownButton:disabled img {
+  padding-left: 0.5rem;
+}
